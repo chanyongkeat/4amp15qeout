@@ -1,0 +1,58 @@
+ Warning: Only a single CPU will be used!
+
+     Program TDDFPT_PP v.7.2 starts on 22Feb2024 at 23:35:28 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on   176 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =     176
+     1399415 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading   3000 Lanczos steps for direction 1
+       3000 steps will be considered
+
+
+     Reading   3000 Lanczos steps for direction 2
+       3000 steps will be considered
+
+
+     Reading   3000 Lanczos steps for direction 3
+       3000 steps will be considered
+
+
+     Data ready, starting to calculate observables...
+
+     Broadening =      0.00514490 Ry
+
+     Output file name: 4amp15.plot_chi.dat
+
+     Output file name for the oscillator strength S  4amp15.plot_S.dat
+
+     chi_i_j: dipole polarizability tensor  in units of e^2*a_0^2/energy
+
+     S: oscillator strength in units of 1/energy
+
+     S(\hbar \omega) = 2m/( 3 \pi e^2 \hbar)  \omega sum_j chi_j_j
+
+     S(\hbar \omega) satisfies the f-sum rule:  \int_0^\infty dE S(E) = N_el 
+
+     Functions are reported in \hbar.\omega  Energy unit is (eV)
+
+     TDDFPT_PP    :      0.21s CPU      0.23s WALL
+
+
+   This run was terminated on:  23:35:29  22Feb2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
